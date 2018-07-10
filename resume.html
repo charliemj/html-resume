@@ -3,236 +3,96 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="dep/normalize.css/normalize.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="dep/Font-Awesome/css/font-awesome.css" />
+
+
     <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="resume.js"></script>
+
   </head>
   <body lang="en">
     <section id="main">
       <header id="title">
-        <h1>John Doe</h1>
-        <span class="subtitle">Plaintiff, defendant &amp; witness</span>
+        <h1 id="myname"></h1>
+        <span class="subtitle"></span>
       </header>
-      <section class="main-block">
-        <h2>
-          <i class="fa fa-suitcase"></i> Experiences
-        </h2>
-        <section class="blocks">
-          <div class="date">
-            <span>2015</span><span>present</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>Some Position</h3>
-              <span class="place">Some Workplace</span>
-              <span class="location">(remote)</span>
-            </header>
-            <div>
-              <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec mi ante. Etiam odio eros, placerat eu metus id, gravida eleifend odio. Vestibulum dapibus pharetra odio, egestas ullamcorper ipsum congue ac. Maecenas viverra tortor eget convallis vestibulum. Donec pulvinar venenatis est, non sollicitudin metus laoreet sed. Fusce tincidunt felis nec neque aliquet porttitor</li>
-              </ul>
-              </div>
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date">
-            <span>2014</span><span>2015</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>Another Position</h3>
-              <span class="place">Some Workplace</span>
-              <span class="location">Some City, Some Country</span>
-            </header>
-            <div>
-              <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date">
-            <span>2013</span><span>2014</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>Yet Another Job Position</h3>
-              <span class="place">Some Workplace</span>
-              <span class="location">Some City, Some Country</span>
-            </header>
-            <div>
-              <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec mi ante. Etiam odio eros, placerat eu metus id, gravida eleifend odio</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-              </ul>
-              </div>
-          </div>
-        </section>
-      </section>
-      <section class="main-block">
-        <h2>
-          <i class="fa fa-folder-open"></i> Selected Projects
-        </h2>
-        <section class="blocks">
-          <div class="date">
-            <span>2015</span><span>2016</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>Some Project 1</h3>
-              <span class="place">Some workplace</span>
-            </header>
-            <div>
-              <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec mi ante. Etiam odio eros, placerat eu metus id, gravida eleifend odio. Vestibulum dapibus pharetra odio, egestas ullamcorper ipsum congue ac</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec mi ante. Etiam odio eros, placerat eu metus id, gravida eleifend odio</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date">
-            <span>2014</span><span>2015</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>Some Project 2</h3>
-              <span class="place">Some workplace</span>
-            </header>
-            <div>
-              <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec mi ante. Etiam odio eros, placerat eu metus id, gravida eleifend odio. Vestibulum dapibus pharetra odio, egestas ullamcorper ipsum congue ac. Maecenas viverra tortor eget convallis vestibulum. Donec pulvinar venenatis est, non sollicitudin metus laoreet sed. Fusce tincidunt felis nec neque aliquet porttitor</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date">
-            <span>2014</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>Some Project 3</h3>
-              <span class="place">Some workplace</span>
-            </header>
-            <div>
-              <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec mi ante. Etiam odio eros, placerat eu metus id, gravida eleifend odio</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-      </section>
-      <section class="main-block concise">
+            <section id="education" class="main-block concise">
         <h2>
           <i class="fa fa-graduation-cap"></i> Education
         </h2>
         <section class="blocks">
           <div class="date">
-            <span>2009</span><span>2014</span>
+            <span>2012</span><span>2017</span>
           </div>
           <div class="decorator">
           </div>
           <div class="details">
             <header>
-              <h3>Ph.D. in Forty-Two Discovery</h3>
-              <span class="place">Inexistent University</span>
-              <span class="location">Some City, Some Country</span>
+              <h3 id="degree"></h3>
+              <span class="place">Massachusetts Institute of Technology</span>
+              <span class="location">Cambridge, MA</span>
             </header>
-            <div>Relationship of the number with the answer to life, the universe and everything</div>
+            <div class="concise" id="gpa">GPA: 4.5/5.0</div>
+            <div class="concise" id="coursework"></div>
           </div>
         </section>
-        <section class="blocks">
-          <div class="date">
-            <span>2005</span><span>2009</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>LL.B. in H&aelig;matophagic Economics</h3>
-              <span class="place">Inexistent University</span>
-              <span class="location">Some City, Some Country</span>
-            </header>
-            <div>President's Scholarship</div>
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date">
-            <span>2005</span><span>2009</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>B.S. in Existential Science (Double Major)</h3>
-              <span class="place">Inexistent University</span>
-              <span class="location">Some City, Some Country</span>
-            </header>
-            <div>President's Scholarship</div>
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date">
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>Massive Online Fee&ndash;Required Course (selective list)</h3>
-            </header>
-            <div class="concise">
-              <ul>
-                <li>Introduction to something else</li>
-                <li>Introduction to some more useless things</li>
-                <li>Philosophy in practice</li>
-                <li>Recursive research and its impact on recursive research</li>
-                <li>Artificial politics</li>
-              </ul>
-            </div>
-          </div>
-        </section>
+      </section>
+      <section id="leadership" class="main-block">
+        <h2><i class="fa fa-suitcase"></i>Leadership + Work Experience</h2>
+        <!--Work experience will be inserted here!-->
+      </section>
+      <section id="projects" class="main-block">
+        <h2><i class="fa fa-folder-open"></i> Projects</h2>
+        <!--Projects will be inserted here!-->
       </section>
     </section>
     <aside id="sidebar">
       <div class="side-block" id="contact">
-        <h1>
-          Contact Info
-        </h1>
+        <h1>Contact Info</h1>
         <ul>
-          <li><i class="fa fa-globe"></i> johndoe.gtld</li>
-          <li><i class="fa fa-linkedin"></i> linkedin.com/in/john</li>
-          <li><i class="fa fa-envelope"></i> me@johndoe.gtld</li>
-          <li><i class="fa fa-phone"></i> 800.000.0000</li>
+          <li id="website"><i class="fa fa-globe"></i> </li>
+          <li id="myEmail"><i class="fa fa-envelope"></i> </li>
+          <li id="myPhone"><i class="fa fa-phone"></i> </li>
+          <li id="github"><i class="fa fa-github"></i> </li>
         </ul>
       </div>
       <div class="side-block" id="skills">
-        <h1>
-          Skills
-        </h1>
+        <h1>Skills</h1>
         <ul>
-          <li>Omnipresence</li>
-          <li>Anonymity</li>
+          <li class="skill-category"><i class="fa fa-code"></i> Software <span class="qualifier">(several projects)</span></li>
+          <li>Python</li>
+          <li>HTML5 + CSS</li>
+          <li>JavaScript + jQuery</li>
+          <li>git</li>
+          <li>UNIX command line</li>
         </ul>
         <ul>
-          <li>Ordinarity</li>
-          <li>No name rights</li>
+          <li class="skill-category"><i class="fa fa-code"></i> Software <span class="qualifier">(1-2 projects)</span></li>
+          <li>Java</li>
+          <li>Full-stack Web Development</li>
+          <li>MongoDB</li>
+          <li>Node.js + Express.js</li>
+        </ul>
+        <ul>
+          <li class="skill-category"><i class="fas fa-chalkboard-teacher"></i> Communication</li>
+          <li>Writing + Editing</li>
+          <li>Teaching + Educational Writing</li>
+          <li>Public Speaking</li>
+          <li>Journalism + Reporting</li>
+          <li>Social Media</li>
+        </ul>
+        <ul>
+          <li class="skill-category"><i class="fas fa-palette"></i> Design</li>
+          <li>UI/UX</li>
+          <li>User Testing</li>
+          <li>Prototyping</li>
+          <li>User-centered Design</li>
+          <li>Ethnography</li>
+          <li>Visual Design</li>
         </ul>
       </div>
       <div class="side-block" id="disclaimer">
