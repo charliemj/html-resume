@@ -5,7 +5,7 @@ var myPhone = "617-388-8354";
 var myEmail = "moorejchar@gmail.com";
 var myGitHub = "charliemj";
 var degree = "B.S. in Computer Science and Engineering and Comparative Media Studies";
-var coursework = "Coursework in software engineering, user interface design, algorithms, & media studies";
+var coursework = "Coursework in software engineering, user interface design, algorithms, + media studies.";
 
 $(document).ready(function(){
 
@@ -170,8 +170,8 @@ var makeProjectsBlock = function(blocks){
 
 //Experience
 var a = ["Sept. 2017", "Present", "Chairman", "The Tech (MIT student newspaper)", "Cambridge, MA", ["Oversees the operations of the newspaper, with a staff of 130 and 14 departments, as its Chief Executive Officer.","Led recruitment efforts that increased The Tech's staff size by 30% in 2017.","Launched an advertisement and marketing initiative that increased our 2017 revenue by more than 40%."]];
-var b = ["Sept. 2017", "May 2018", "Teaching Assistant for 6.009 Fundamentals of Programming (former Lab Assistant, Spring 2017)", "Electrical Engineering and Computer Science Department, MIT","Cambridge, MA", ["Held ~ 15 office hours a week to help and provide feedback to students on weekly programming assignments in Python.", "Coordinated schedules for staffing hours for ~ 60 lab and teaching assistants."]];
-var c = ["Sept. 2013","Sept. 2017", "News Editor (former Senior Editor, Arts Editor)", "The Tech (MIT student newspaper)", "Cambridge, MA",["Edited writing of ~ 15 writers to publish ~5 articles per week, reaching ~21,000 readers.", "Led meetings, recruited, and trained new writers and editors."]];
+var b = ["Sept. 2017", "May 2018", "Teaching Assistant for 6.009 Fundamentals of Programming (former Lab Assistant, Spring 2017)", "Electrical Engineering and Computer Science Department, MIT","Cambridge, MA", ["Held ~15 office hours a week to help and provide feedback to students on weekly programming assignments in Python.", "Coordinated schedules for staffing hours for ~60 lab and teaching assistants."]];
+var c = ["Sept. 2013","Sept. 2017", "News Editor (former Senior Editor, Arts Editor)", "The Tech (MIT student newspaper)", "Cambridge, MA",["Edited writing of ~15 writers to publish ~5 articles per week, reaching ~21,000 readers.", "Led meetings, recruited, and trained new writers and editors."]];
 var d = ["June 2017", "July 2017", "Youth and Media + Artificial Intelligence Research Intern (Team lead)", "Harvard Berkman Klein Center for Internet + Society", "Cambridge, MA", ["Designed educational materials about AI topics intended for non-technical audiences."]];
 var e = ["Mar. 2016", "Aug. 2016", "Math and Science Writing Intern", "Brilliant.org (STEM education startup with 4 million users)", "Worked remotely", ["Wrote 60+ educational computer science wiki pages and practice problems used by students of all ages.", "Provided feedback and peer reviewed other writers’ pages on a weekly basis."]];
 
